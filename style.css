@@ -1,0 +1,310 @@
+﻿@font-face {
+    font-family: 'Inria Sans';
+    src: url('fonts/InriaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Slab';
+    src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unica One';
+    src: url('fonts/UnicaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('fonts/IBMPlexMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content:center;
+}
+
+.body {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+    height:100vh;
+    width:1920px;
+    align-items:center;
+}
+
+.header {
+    display: flex;
+    width: 1897px;
+    height: 635px;
+    background: url(images/head_bg.jpg), lightgray 0px -564.148px / 100% 188.976% no-repeat;
+    position: absolute;
+}
+
+.author {
+    position: absolute;
+    right: 400px;
+    top: 57px;
+    color: #FFF;
+    font-family: Unica One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 232px;
+}
+
+.title2 {
+    position: absolute;
+    left: 400px;
+    top: 367px;
+    color: #FFF;
+    font-family: Josefin Slab;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title1 {
+    position: absolute;
+    left: 400px;
+    top: 181px;
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 155px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons_header {
+    display: flex;
+    width: 1120px;
+    height: 68px;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 400px;
+    top: 567px;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_active {
+    color: #fff;
+    display: flex;
+    width: 194px;
+    height: 56px;
+    padding: 6px 43px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #0f0f0f;
+    border-bottom: 3px solid #FFF;
+    border-bottom-style:inset;
+}
+
+.btn_disable {
+    display: flex;
+    width: 194px;
+    height: 56px;
+    padding: 6px 43px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #0F0F0F;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.body_content {
+    width:1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    position:absolute;
+    top:670px;
+}
+
+.title3 {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    width: 1120px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.razdel{
+    display:felx;
+}
+
+.works{
+    display:flex;
+    flex-direction:column;
+    width:1120px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.work1{
+    display: flex;
+    flex-direction:row;
+    gap: 144px;
+    width: 1120px;
+}
+
+.image {
+    margin-top:30px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    background: #d9d9d9; 
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 529px;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+
+.w1_title2 {
+    margin-bottom:200px;
+    position: absolute;
+    color: #FFF;
+    font-family: Josefin Slab;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.w1_text {
+    width: 529px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.f_title3 {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer{
+    width: 100%;
+    height: 424px;
+    display: flex;
+    flex-direction: row;
+    top:2300px;
+    position:absolute;
+    background-color:#fff;
+    align-items:center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1120px;
+    gap: 175px;
+}
+
+.navigation {
+    display:flex;
+    flex-direction:column;
+    gap: 32px;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.b1, .b2{
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.author_card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.img {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.f_author {
+    font-family: Unica One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
